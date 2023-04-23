@@ -4,7 +4,7 @@
   "description": "A starting point for the CSS Frameworks CA project",
   "scripts": {
     "test": "echo \"We will learn more about testing in the Workflow course\" && exit 1",
-    "build": "sass src/scss/index.scss:dist/css/index.css",
+    "build": "sass src/scss:dist/css",
     "watch": "sass --watch src/scss:dist/css & live-server"
   },
   "repository": {
@@ -27,6 +27,7 @@
   "homepage": "https://github.com/NoroffFEU/css-frameworks-ca#readme",
   "main": "index.js",
   "dependencies": {
+    "@popperjs/core": "^2.11.7",
     "bootstrap": "^5.3.0-alpha3"
   },
   "devDependencies": {
